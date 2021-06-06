@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.activator).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.i(TAG,"peiwan..........");
+                Log.i(Utils.TAG,"peiwan..........");
                 Intent i = new Intent();
                 i.setClassName(MainActivity.this, "com.tuya.smart.bizbundle.activator.demo.DeviceActivatorActivity");
                 startActivity(i);

@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.tuya.smart.bizubundle.demo.*;
 
 import com.tuya.smart.activator.config.api.ITuyaDeviceActiveListener;
 import com.tuya.smart.activator.config.api.TuyaDeviceActivatorImpl;
@@ -26,7 +27,7 @@ public class DeviceActivatorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_device_activator);
-        Log.i(TAG,"peiwan..........");
+        Log.i("XWG","peiwan..........");
         infoEt = findViewById(R.id.et_info);
     }
 
